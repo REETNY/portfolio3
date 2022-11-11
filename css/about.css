@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.nav-pad{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.bg-self{
+    background-color: #E5E5E5 !important;
+}
+
+.nav-space{
+    margin-right: 48px;
+    color: black;
+}
+
+.nav-letter{
+    font-size: 18px;
+    font-weight: 500;
+    color: #25282B !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.section1{
+    padding: 0 120px 0 120px;
+    margin-top: 52px;
+}
+
+.about-me{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.about-content{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding-right: 80px;
+    margin-top: 32px;
+}
+
+.resume-btn{
+    margin-top: 32px;
+}
+
+.resume{
+    background-color: #FDC435;
+    border-radius: 8px;
+}
+
+.pic-cont{
+    width: 100%;
+    height: 524px;
+}
+
+.img-fit{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.socials{
+    margin-top: 149px;
+    padding-bottom: 80px;
+}
+
+.social-cont{
+    margin-bottom: 37px;
+}
+
+.social-fit{
+    margin-right: 34px;
+}
+
+.creator{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}

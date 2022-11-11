@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #E5E5E5;
+}
+
+.nav-pad{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.bg-self{
+    background-color: #E5E5E5 !important;
+}
+
+.nav-space{
+    margin-right: 48px;
+    color: black;
+}
+
+.nav-letter{
+    font-size: 18px;
+    font-weight: 500;
+    color: #25282B !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+.form-head{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    position: relative;
+}
+
+.form-head::after{
+    content: '';
+    display: inline-block;
+    background-color: #FDC435;
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    left: 50%;
+    transform: translate( -50%, 70px);
+}
+
+
+.form-label{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+#message{
+    resize: none;
+}
+
+
+.myform-btn{
+    margin-top: 24px;
+    background-color: #FDC435;
+    border: none;
+}
+
+.myform-btn:hover{
+    background-color: #FDC435;
+    opacity: 80%;
+}
+
+.myform-btn:active{
+    background-color: #FDC435;
+    opacity: 50%;
+}
+
+
+.total{
+    position: relative;
+}
+
+
+.socials{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.social-cont{
+    margin-bottom: 37px;
+}
+
+.social-fit{
+    margin-right: 34px;
+}
+
+.creator{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.footer-img{
+    width: 100%;
+    height: 344px;
+    margin-top: 54px;
+}
+
+.footer-fit{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 550px){
+    .nav-pad{
+        padding: 0px 10px;
+    }
+
+    .footer-img{
+        height: 150px;
+    }
+
+    .social-cont{
+        margin-bottom: 0px;
+    }
+
+    .social-fit{
+        margin: 5px;
+        width: 24px;
+        height: 24px;
+    }
+}

@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+
+.formobile{
+    display: none;
+}
+
+/* intro page & nav link */
+
+.intro-page{
+    width: 100%;
+    height: auto;
+}
+
+.intro-cont{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro{
+    padding-left: 120px;
+    padding-right: 114px;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.role{
+    font-size: 20px;
+    color: #FDC435;
+    margin-top: 56px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hello-name{
+    font-size: 64px;
+    font-weight: 700;
+    color: #25282B;
+    margin-top: 12px;
+    line-height: 72.8px;
+    font-family: 'Playfair Display', serif;
+}
+
+.intro-word{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #828282;
+    margin-top: 32px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.intro-btn{
+    margin-top: 28px;
+    height: fit-content;
+}
+
+.project-btn{
+    width: 115px;
+    height: 43px;
+    margin-right: 10px;
+    background-color: #FDC435;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.linkedIn-btn{
+    width: 115px;
+    height: 43px;
+    margin-right: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro-pic{
+    height: 629px;
+    position: relative;
+}
+
+.img-cont{
+    width: 100%;
+    height: 100%;
+}
+
+.girl-pic{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-cont{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li{
+    list-style: none;
+    margin-right: 48px;
+    position: relative;
+}
+
+.nav-links li:last-child{
+    margin-right: 120px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #25282B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.nav-links .list a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 26px;
+    left: 0;
+    background-color: #1d1c1c;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .5s ease-in;
+}
+
+.nav-links .list a:hover::after{
+    transform: scale(1);
+}
+
+
+
+/* end intro page & nav link */
+
+
+/* project section */
+
+.section1{
+    margin-top: 144px;
+}
+
+.project-head{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 88px;
+    color: #25282B;
+    position: relative;
+}
+
+.project-head::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 75px);
+    width: 100px;
+    height: 4px;
+    background-color: #FDC435;
+
+}
+
+.project-space{
+    padding-left: 50px;
+}
+
+.project-name{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.project-detail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 380px;
+    margin-bottom: 28px;
+}
+
+.view-btn{
+    width: 100%;
+}
+
+.view-project{
+    width: 182px;
+    height: 43px;
+    background-color: transparent;
+    border-radius: 21.5px;
+    border: 1px solid black;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.project-img{
+    width: 100%;
+    height: 500px;
+}
+
+.pro-imgfit{
+    width: 100%;
+    height: 100%;
+}
+
+.down-space{
+    margin-bottom: 80px;
+}
+
+.box{
+    box-shadow: 2px 2px 3px 2px rgb(194, 193, 193);
+}
+
+
+/*end of project section */
+
+
+
+/* social style */
+
+
+.socials{
+    margin-top: 149px;
+    padding-bottom: 80px;
+}
+
+.social-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.social-fit{
+    margin-right: 34px;
+}
+
+
+.creator{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 37px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* social style */
+
+
+
+
+
+
+@media only screen and (max-width: 550px){
+
+
+.intro-page{
+    display: none;
+}
+
+/* for mobile */
+
+.formobile{
+    display: block;
+}
+
+.navbar-toggler{
+    border: none !important;
+    color: transparent !important;
+    transform: rotate(0);
+    transition: transform 0.44s linear;
+}
+
+.clicked{
+    transform: rotate(90deg);
+}
+
+.main-name{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    color: #25282B;
+    font-family: 'Playfair Display', serif;
+    min-height: 130px;
+}
+
+.main-role{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #FDC435;
+    font-family: 'Nunito', sans-serif;
+    min-height: 30px;
+}
+
+.mobile-img{
+    width: 100%;
+    height: 300px;
+}
+
+.mobile-fit{
+    width: 100%;
+    height: 100%;
+}
+/* for mobile */
+
+.section1{
+    margin-top: 30px;
+}
+
+.project-space{
+    padding-left: 0px;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+}
+
+.project-name{
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+
+.project-detail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    width: fit-content;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+}
+
+.rounded{
+    border-radius: 10px !important;
+}
+
+.rounded-end{
+    border-radius: 0px !important;
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+.rounded-start{
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+
+.project-img{
+    height: 300px;
+}
+
+.view-btn{
+    margin-bottom: 25px;
+}
+
+.view-project{
+    width: 130px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 550px) and (max-width: 1020px){
+
+
+    .intro-page{
+        display: none;
+    }
+
+    /* for mobile */
+
+    .formobile{
+        display: block;
+    }
+
+    .navbar-toggler{
+        border: none !important;
+        color: transparent !important;
+        transform: rotate(0);
+        transition: transform 0.44s linear;
+    }
+
+    .nav-link{
+        font-size: 20px !important;
+    }
+
+    .clicked{
+        transform: rotate(90deg);
+    }
+
+    .main-name{
+        font-size: 58px;
+        font-weight: bold;
+        line-height: 70px;
+        color: #25282B;
+        font-family: 'Playfair Display', serif;
+        min-height: 230px;
+        padding-left: 80px;
+    }
+
+    .main-role{
+        font-size: 20px;
+        margin-top: 10px;
+        color: #FDC435;
+        font-family: 'Nunito', sans-serif;
+        min-height: 30px;
+        padding-left: 80px;
+    }
+
+    .mobile-img{
+        width: 100%;
+        height: 450px;
+    }
+
+    .mobile-fit{
+        width: 100%;
+        height: 100%;
+    }
+    /* for mobile */
+
+    .project-space {
+        padding-left: 0px;
+        padding-left: 0px;
+    }
+
+    .project-name{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .project-detail {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 22px;
+    }
+
+    .view-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .view-project {
+        width: 142px;
+        height: 43px;
+        background-color: transparent;
+        border-radius: 21.5px;
+        border: 1px solid black;
+        outline: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .project-img{
+        height: 400px;
+    }
+
+}
