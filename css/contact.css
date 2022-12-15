@@ -62,6 +62,14 @@ body{
     font-size: 16px;
 }
 
+.navbar-toggler{
+    color: transparent !important;
+    border: none;
+    background-color: none !important;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+}
 
 
 #message{

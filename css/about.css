@@ -92,3 +92,55 @@ body{
     font-weight: 400;
     font-size: 16px;
 }
+
+
+@media only screen and (max-width: 550px){
+    .section1{
+        padding: 0;
+    }
+
+    .nav-pad{
+        padding: 0 10px;
+    }
+
+    .img-fit{
+        height: 300px;
+    }
+
+    .about-content{
+        padding: 0;
+    }
+
+    .navbar-toggler{
+        color: transparent !important;
+        border: none;
+        background-color: none !important;
+        padding: 0;
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1000px){
+    .section1{
+        padding: 0 50px;
+    }
+
+    .nav-pad{
+        padding: 0 50px;
+    }
+
+    .img-fit{
+        height: 80%;
+    }
+
+
+    .navbar-toggler{
+        color: transparent !important;
+        border: none;
+        background-color: none !important;
+        padding: 0;
+        outline: none;
+        box-shadow: none;
+    }
+}
